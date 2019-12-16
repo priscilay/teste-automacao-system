@@ -6,7 +6,6 @@ public class Dados {
 	private Scanner digitar;
 	
 	String nomeFilme = digitar.nextLine();
-	
 }
 
 
