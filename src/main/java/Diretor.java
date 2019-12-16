@@ -2,9 +2,9 @@ import java.util.List;
 
 public class Diretor
 {
-    public String nome;
-    public String nascimento;
-    public List<Filme> filmes;
+    private String nome;
+    private String nascimento;
+    private List<Filme> filmes;
     
     public String getNome() {
 		return nome;
@@ -18,7 +18,7 @@ public class Diretor
   		return nascimento;
   	}
       
-      public void setNascimento(String textInput) {
+    public void setNascimento(String textInput) {
   		nascimento = textInput;
   	}
 }

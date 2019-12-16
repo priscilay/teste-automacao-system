@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Filme
 {
     private String nome;
