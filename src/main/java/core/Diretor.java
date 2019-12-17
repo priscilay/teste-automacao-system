@@ -1,3 +1,4 @@
+package core;
 import java.util.List;
 
 public class Diretor
@@ -6,7 +7,15 @@ public class Diretor
     private String nascimento;
     private List<Filme> filmes;
     
-    public String getNome() {
+    public List<Filme> getFilmes() {
+		return filmes;
+	}
+
+	public void setFilmes(List<Filme> filmes) {
+		this.filmes = filmes;
+	}
+
+	public String getNome() {
 		return nome;
 	}
     

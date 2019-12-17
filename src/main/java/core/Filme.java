@@ -1,8 +1,9 @@
+package core;
 public class Filme
 {
     private String nome;
-    public int ano;
-    public int qtd;
+    private int ano;
+    private int qtd;
 
     
     public String getNome() {
